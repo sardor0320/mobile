@@ -1,0 +1,30 @@
+.heading{
+   margin-top: -200px;
+   color: white;
+   font-size: 32px;
+  
+
+}
+button{
+    width: 170px;
+    height: 48px;
+    border-radius: 60px;
+    border: 1px;
+    border-color: 
+    #FFFFFF;
+}
+.header_div{
+    margin-left: 24px;
+    gap: 20px;
+}
+.section__img{
+   margin-top: 90px;
+}
+.paragrp{
+   margin-top: -25px;
+   margin-left: 30px;
+}
+.section__div{
+   margin-left: 200px;
+   margin-top: -30px;
+}

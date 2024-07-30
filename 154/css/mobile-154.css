@@ -1,0 +1,42 @@
+.mobile-154-box1{
+    margin-top: .5vh;
+    position: absolute;
+}
+.mobile-154-box2{
+    width: 90vw;
+    height: 7vh;
+    color: #fff;
+    background-color: #000;
+    margin-top: 5vh;
+    margin-left: 2vw;
+}
+.mobile-154-box3{
+    display: flex;
+    gap: 2vw;
+    justify-content: center;
+    text-align: center;
+}
+.mobile-154-box4{
+    display: flex;
+    justify-content: space-between;
+}
+.mobile-154-box5{
+    margin-top: 3.7vh;
+}
+.mobile-154-box6{
+    width: 100vh;
+    height: 5vh;
+    background-color: #000;
+    border-bottom-left-radius: 5vw;
+    border-bottom-right-radius: 5vw;
+    padding: 3vh 0vw 0px;
+}
+.mobile-154-box7{
+    display: flex;
+    justify-content: center;
+    gap: 3vw;
+    margin-top: 2vh;
+}
+.mobile-154-box8{
+    padding: 0px 15vw;
+}

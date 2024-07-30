@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ol,
+ul {
+    list-style: none;
+    border: 2px;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: "Work Sans", sans-serif;
+
+}
+
+.container {
+    max-width: 390px;
+    margin: 0 auto;
+}
+
+
+.profile-picture {
+    background-image: url(/images/main-img.png);
+    /* border-radius: 50%; */
+    width: 100%;
+    height: 340px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+
+.stats {
+
+    /* margin-bottom: 20px; */
+    border: 1px solid transparent;
+    border-top-right-radius: 36px;
+    background-color: #161616;
+    color: #fff;
+    margin-top: -86px;
+    padding-top: 50px;
+}
+
+.stats-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+.stats-title {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+
+}
+
+.stats-num {
+
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: left;
+
+}
+
+.splide {
+    margin-bottom: 30px;
+}
+
+.splide-title {
+
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 22px;
+    margin-left: 26px;
+    margin-bottom: 18px;
+
+}
+
+.splide__list {
+    /* display: flex; */
+    /* align-items: center; */
+    gap: 25px;
+}
+
+.splide__slide {
+    padding: 50px;
+    /* padding-bottom: 10px; */
+    border: 1px solid transparent;
+    border-radius: 10px;
+    background-color: #C4C4C4;
+}
+
+
+
+
+
+
+.song-item {
+    background-color: #333;
+    border-radius: 10px;
+    padding: 20px;
+    width: 350px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.album-art {
+    background-color: #ddd;
+    width: 80px;
+    height: 80px;
+    margin-right: 20px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+}
+
+.song-details {
+    color: #fff;
+}
+
+.song-title {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: left;
+
+}
+
+.song-year {
+    color: #fff;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+
+}
+
+.options-menu {
+    margin-left: auto;
+    color: #fff;
+    cursor: pointer;
+}

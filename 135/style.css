@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #333333;
+    width: 100%;
+    position: fixed;
+}
+
+
+section {
+    padding: 25px 15px;
+    width: 100%;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    p {
+        line-height: 23px;
+    }
+
+    div {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        div {
+            display: flex;  
+            align-items: center;
+            gap: 10px;
+            width: 50px;
+
+            h4 {
+                font-weight: 400;
+            }
+        }
+
+        p {
+            font-weight: 400;
+            color: #A8A8A8;
+        }
+    }
+}
+
+nav {
+    width: 100%;
+    height: max-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+
+    div {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+}
+
+header {
+    width: 100%;
+    height: max-content;
+    padding: 25px 15px;
+    background-image: url("https://s3-alpha-sig.figma.com/img/18ef/0477/daefd52c38f9391d1e2550e40a636435?Expires=1721606400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=mjw6bxxXnjSDBR8P7adWXcnvv2iDKFin8UN-tIzU3omJN6w-Kj6R5eMUjJUJn2fawST6i-aOhcjqkYVvVBP8wdzQKRSKDcXKDxR7G6KRn~oE11d5JjXhgFXctZ0dYuUnDuv99u83bgJebKC8inGufE4dhiZacz0eFkB1wcgScnkIRec1oviiibFGpecFDcry-hkHX2HFPtkdTXX5iyi84wcaBCYq-WZCvk3NLnD0QOIEXiviTI4AbCKqxnl4WsYqxI-H2YQNCK3qL6jtvgW3cJZ3hlBdlwX-9Dqd1OvUvyBp5V2R9gqPcvFwcRYhJR2xNMAe2CogHqknPrdrGu00Ww__");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 70px;
+}
+
+header>div {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    h3 {
+        line-height: 28px;
+        font-size: 21px;
+        font-weight: 400;
+    }
+
+    p {
+        font-weight: 300;
+        font-size: 18px;
+    }
+}
+
+footer {
+    width: 100%;
+    padding: 0 15px;
+    margin-top: 180px;
+    button {
+        width: 100%;
+        height: 50px;
+        border-radius: 30px;
+        border: none;
+        background-color: white;
+        color: #333333;
+        font-size: 18px;
+        font-weight: 400;
+        cursor: pointer;
+    }
+}

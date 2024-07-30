@@ -1,0 +1,50 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.btn{
+    width: Hug (96px)px;
+    height: Hug (32px)px;
+    top: 131px;
+    left: 24px;
+    padding: 6px 16px 6px 16px;
+    gap: 10px;
+    border-radius: 50px 50px 50px 50px;
+    opacity: 0px;
+}
+.btn2{
+width: Hug (96px)px;
+height: Hug (32px)px;
+top: 131px;
+left: 24px;
+padding: 6px 16px 6px 16px;
+gap: 10px;
+border-radius: 50px 50px 50px 50px;
+opacity: 0px;
+
+}
+.header{
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+}
+.search{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.img{
+    padding: 10px;
+}
+.up{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.res{
+padding: 40px;
+padding-bottom: 0;
+}

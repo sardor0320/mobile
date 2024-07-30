@@ -1,0 +1,15 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Proxima Nova Cn Lt";
+    display: grid;
+    grid-template-columns: auto;
+}
+main {
+    display: flex;
+    justify-content: center;
+}
+img{
+    width: 400px;
+    margin-top: -70px;
+}

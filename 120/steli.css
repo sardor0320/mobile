@@ -1,0 +1,120 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.div {
+    display: flex;
+}
+.div1 {
+    width: 25px;
+    height: 25px;
+    margin-left: 4%;
+    padding: 10px 5px;
+}
+.div2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.div3 {
+    width: 54px;
+    height: 30px;
+    padding: 10px 30px;
+}
+.div4 {
+    width: 25px;
+    height: 25px;
+    padding: 10px 30px;
+}
+.div5 {
+    width: 30px;
+    height: 30px;
+    padding: 10px 1px;
+}
+.div6 {
+    width: 358px;
+    height: 220px;
+    border-radius: 10px;
+    margin-left: 4%;
+    margin-top: 5%;
+}
+.div7 {
+    width: 358px;
+    height: 220px;
+    background: rgb(222, 222, 222);
+    border-radius: 10px;
+    margin-left: 4%;    
+}
+.div8 {
+    width: 358px;
+    height: 40px;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: hsla(286, 81%, 81%, 1);
+    border-radius: 10px 10px 0 0;
+}
+.div9 {
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 10px;
+}
+.div10 {
+    width: 320px;
+    height: 40px;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(188, 183, 183);
+    border-radius: 20px;
+}
+.div11 {
+    display: flex;
+    gap: 10px;
+}
+.div12 {
+    width: 24px;
+    height: 24px;
+    padding: 10px 10px;
+}
+.div13 {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.div14 {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 10%;
+}
+.div15 {
+    width: 36px;
+    height: 35.09px;
+}
+.div16 {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.div17 {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 5%;
+}
+.div18 {
+    width: 342px;
+    height: 143px;
+    margin-left: 6%;
+}
+.div19 {
+    display: flex;
+    justify-content: center;
+    gap: 15%;
+    margin-top: 5%;
+}
+.div20 {
+    width: 30px;
+    height: 30px;
+}

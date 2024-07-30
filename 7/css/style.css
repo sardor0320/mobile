@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Work Sans", sans-serif;
+}
+
+.container {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+}
+
+.avatar {
+    width: 40px;
+    height: 40px;
+    background-color: #ccc;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.notification {
+    position: relative;
+}
+
+.bell {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+main {
+    padding: 20px 0;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.search-bar {
+    margin-bottom: 20px;
+}
+
+.search-bar input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    background-color: #D0D0D0;
+    border-radius: 8px;
+    outline: none;
+}
+
+.categories, .popular {
+    margin-bottom: 20px;
+}
+
+.categories h2, .popular h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.category-list, .popular-list {
+    display: flex;
+    overflow-x: scroll;
+}
+
+.category-item, .popular-item {
+    flex: 0 0 auto;
+    width: 150px;
+    height: 150px;
+    background-color: #C4C4C4;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.popular-item {
+    width: 250px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+}
+
+.popular-img {
+    flex: 1;
+    background-color: #ccc;
+    border-radius: 10px 10px 0 0;
+}
+
+.popular-info {
+    padding: 10px;
+    border-radius: 0 0 10px 10px;
+    text-align: left;
+}
+
+.popular-info h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+    justify-content: left;
+}
+
+.popular-info p {
+    font-size: 14px;
+    color: #555;
+}

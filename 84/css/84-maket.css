@@ -1,0 +1,146 @@
+.hdr {
+    width: 100%;
+    height: 60px;
+    border-bottom: 5px solid rgb(231, 231, 231);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hdr__box {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hdr__box--box {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.hdr__box--box__img {
+    width: 25px;
+    height: 25px;
+    object-fit: contain;
+}
+
+.hdr__box--box__box-second {
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.hdr__box--box__box-second--img-second {
+    width: 55px;
+    height: 55px;
+    object-fit: contain;
+}
+
+.hdr__box--box__box-second--h2 {
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.hdr__box--box-second {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.hdr__box--box-second__box {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 15px;
+}
+
+.stn {
+    width: 100%;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.stn__box {
+    width: 100%;
+    height: 180px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.stn__box--box {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 15px;
+}
+
+.stn__box--box-second__pr {
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.ftr {
+    width: 100%;
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.ftr__box {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background-color: rgb(255, 239, 239);
+}
+
+.ftr__box--box {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.ftr__box--box__img {
+    width: 25px;
+    height: 25px;
+    object-fit: contain;
+}
+
+.ftr__box--input {
+    width: 60%;
+    height: 60%;
+    border: none;
+    border-radius: 5px;
+}
+
+.ftr__box--box__img-second {
+    width: 35px;
+    height: 35px;
+}

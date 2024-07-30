@@ -1,0 +1,44 @@
+.header__home{
+    font-size: 25px;
+    margin-left: 20px;
+}
+.header__left{
+    display: flex;
+    gap: 20px;
+    font-size: 25px;
+    justify-content: center;
+}
+.header__right{
+    display: flex;
+    gap: 35px;
+    font-size: 20px;
+    justify-content: center;
+    transform: translatey(-40px);
+}
+.header__top{
+    font-size: 20px;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+.header__top--two{
+    display: flex;
+    margin-top: 30px;
+    gap: 20px;
+}
+.main__topir{
+    width: 300px;
+    height: 80px;
+    border-radius: 15px;
+    background-color: gray;
+    margin-left: 35px;
+}
+.main__toppot{
+    display: flex;
+    justify-content: center;
+}
+.main__button button{
+    width: 350px;
+    height: 60px;
+    margin-left: 11px;
+}

@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+section{
+    margin: 0 22px;
+}
+section > div:nth-child(1){
+    border-top: 1.5px solid rgb(142, 139, 139);
+    border-bottom: 1.5px solid rgb(142, 139, 139);
+    padding: 8px 0;
+    margin: 2px 0;
+}
+section > div:nth-child(1) > div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 0;
+}
+section > div:nth-child(1) > div h2{
+    font-size: 18px;
+}
+section > div:nth-child(2) {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 8px 0;
+}
+section > div:nth-child(2) p{
+    font-size: 16px;
+}
+section > div:nth-child(3) {
+    background-color: rgb(241, 243, 243);
+    border-radius: 25px;
+    box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.25);
+}
+section > div:nth-child(3) > div:nth-child(1) {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1.5px solid rgb(188, 188, 188);
+    margin: 50px 0 0 0;
+}
+section > div:nth-child(3) h5{
+    font-size: 29px;
+    font-weight: 300;
+    padding: 10px 20px;
+}
+section > div:nth-child(3) p{
+    font-size: 20px;
+    padding: 20px;
+}
+section > div:nth-child(4){
+    text-align: center;
+    position: fixed;
+    left: 25px;
+    background-image: linear-gradient(rgba(241, 243, 243, 0.733), rgb(241, 243, 243), rgb(241, 243, 243));
+    padding: 20px 0 0 0;
+    bottom: -10px;
+    border-radius: 30px;
+}
+section > div:nth-child(4) > img{
+    text-align: center;
+    position: relative;
+    top: -36px;
+}
+section > div:nth-child(4) > div{
+    display: flex;
+    justify-content: space-between;
+}

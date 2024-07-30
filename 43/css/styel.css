@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+section h2{
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+}
+section h2 img{
+    margin: 0 80px 0 0;
+}
+section .item-1{
+    text-align: center;
+    height: 90%;
+    margin: 50px 0 0 0;
+}
+section .item-1 p{
+    font-weight: bold;
+    color: rgb(88, 88, 88);
+    margin: 20px 0 6px 0;
+}
+section .item-1 span{
+    font-weight: 600;
+    display: block;
+}
+section .item-1 .item-r{
+    margin: 80px 0 0 0;
+}
+section .item-1 div{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 45px;
+    color: rgb(157, 157, 156);
+}

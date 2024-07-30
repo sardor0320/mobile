@@ -1,0 +1,268 @@
+.box1 {
+    background: gray;
+    position: relative;
+    top: -30px;
+    width: 150px;
+    left: 40px;
+    height: 25px;
+    border-radius: 50px;
+}
+
+.box2 {
+    width: 25px;
+    height: 25px;
+    background-color: grey;
+    border-radius: 50px;
+    position: relative;
+    left: 345px;
+    top: -55px;
+}
+
+.box3 {
+    width: 135px;
+    height: 135px;
+    border-radius: 75px;
+    position: relative;
+    left: 115px;
+    background-color: gray;
+}
+
+.box4 {
+    width: 75px;
+    background-color: gray;
+    border-radius: 50px;
+    top: 85px;
+    position: relative;
+    height: 75px;
+    display: inline-block;
+    margin-left: 35px;
+}
+
+
+.box5 {
+    width: 75px;
+    background-color: gray;
+    border-radius: 50px;
+    top: 85px;
+    position: relative;
+    height: 75px;
+    display: inline-block;
+    margin-left: 35px;
+}
+
+
+.box6 {
+    width: 75px;
+    background-color: gray;
+    border-radius: 50px;
+    top: 85px;
+    position: relative;
+    height: 75px;
+    display: inline-block;
+    margin-left: 35px;
+}
+
+.box7 {
+    width: 150px;
+    background-color: gray;
+    border-radius: 50px;
+    top: 85px;
+    position: relative;
+    height: 25px;
+    top: -60px;
+    left: 75px;
+    display: inline-block;
+    margin-left: 35px;
+}
+
+
+
+
+
+.box8 {
+    width: 75px;
+    background-color: gray;
+    border-radius: 15px;
+    top: 85px;
+    position: relative;
+    height: 15px;
+    left: 40px;
+    display: inline-block;
+    margin-left: 35px;
+}
+
+
+.box9 {
+    width: 75px;
+    background-color: gray;
+    border-radius: 15px;
+    top: 65px;
+    position: relative;
+    height: 15px;
+    display: inline-block;
+    margin-left: 35px;
+}
+
+
+.box10 {
+    width: 75px;
+    background-color: gray;
+    border-radius: 15px;
+    top: 65px;
+    position: relative;
+    height: 15px;
+    display: inline-block;
+    margin-left: 35px;
+}
+
+.box11{
+    width: 25px;
+    height: 25px;
+    background-color: gray;
+    position: relative;
+    border-radius: 25px;
+    top: 100px;
+    left: 35px;
+}
+
+.box12{
+
+        width: 150px;
+        background-color: gray;
+        border-radius: 50px;
+        top: 85px;
+        position: relative;
+        height: 25px;
+        top: 75px;
+        left: 50px;
+        display: inline-block;
+        margin-left: 35px;
+}
+
+
+
+
+
+
+.box13{
+    width: 25px;
+    height: 25px;
+    background-color: gray;
+    position: relative;
+    border-radius: 25px;
+    top: 100px;
+    left: 35px;
+}
+
+.box14{
+
+        width: 150px;
+        background-color: gray;
+        border-radius: 50px;
+        top: 85px;
+        position: relative;
+        height: 25px;
+        top: 75px;
+        left: 50px;
+        display: inline-block;
+        margin-left: 35px;
+}
+
+
+.box15{
+    width: 25px;
+    height: 25px;
+    background-color: gray;
+    position: relative;
+    border-radius: 25px;
+    top: 100px;
+    left: 35px;
+}
+
+.box16{
+
+        width: 150px;
+        background-color: gray;
+        border-radius: 50px;
+        top: 85px;
+        position: relative;
+        height: 25px;
+        top: 75px;
+        left: 50px;
+        display: inline-block;
+        margin-left: 35px;
+}
+
+
+
+.big{
+    width: 100%;
+    height: 65px;
+    position: relative;
+    top: 90px;
+    background-color: #525252;
+    border-radius: 15px;
+}
+
+
+.box17{
+    background-color: gray;
+    width: 40px;
+    display: inline-block;
+    margin-left:40px;
+    margin-top: 10px;
+    height: 40px;
+    border-radius: 35px;
+}
+
+.box18{
+    background-color: gray;
+    width: 40px;
+    display: inline-block;
+    margin-left:40px;
+    margin-top: 10px;
+    height: 40px;
+    border-radius: 35px;
+}
+
+.box19{
+    background-color: gray;
+    width: 40px;
+    display: inline-block;
+    margin-left:40px;
+    margin-top: 10px;
+    height: 40px;
+    border-radius: 35px;
+}
+
+.box20{
+    background-color: gray;
+    width: 40px;
+    display: inline-block;
+    margin-left:40px;
+    margin-top: 10px;
+    height: 40px;
+    border-radius: 35px;
+}
+
+
+.img2{
+    display: block;
+    position: relative;
+    top: -135px;
+    left: 340px;
+}
+
+.img3{
+    display: block;
+    position: relative;
+    top: -135px;
+    left: 340px;
+}
+
+.img4{
+    display: block;
+    position: relative;
+    top: -135px;
+    left: 340px;
+}

@@ -1,0 +1,52 @@
+
+.header__div{
+  background-color: #80808080;
+  width: 390px;
+  height: 200px;
+}
+.header__div--ten{
+  display: flex;
+  gap: 40px;
+  margin-left: 24px;
+   img{
+    height: 30px;
+    width: 30px;
+    margin-top: 19px;
+   }
+   
+  
+}
+.btn{
+  width: 147px;
+  height: 40px;
+  border-radius: 64px;
+  background-color: black;
+  color: #ffffff;
+  margin-left: 200px;
+  margin-top: -20px;
+
+
+
+}
+.ddd{
+  display: flex;
+  gap: 20px;
+  padding-top: 11%;
+  
+}
+.divvvv{
+  width: 390px;
+  height: 220px;
+  background-color: #808080;
+  margin-top: 20px;
+ 
+}
+.ppp{
+  line-height: 20px;
+  width: 400px;
+}
+.div-left-right{
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+}

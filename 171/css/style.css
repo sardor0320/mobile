@@ -1,0 +1,65 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+}
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header a {
+    text-decoration: none;
+    color: black;
+}
+.tabs {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+.tabs div {
+    width: 50%;
+    text-align: center;
+    padding: 10px;
+    border-bottom: 2px solid lightgray;
+    cursor: pointer;
+}
+.tabs .active {
+    border-bottom: 2px solid black;
+}
+.routine {
+    background: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+}
+.routine img {
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-right: 10px;
+}
+.routine .details {
+    flex: 1;
+}
+.progress-bar {
+    background-color: lightgray;
+    border-radius: 5px;
+    height: 10px;
+    margin: 5px 0;
+    overflow: hidden;
+}
+.progress-bar div {
+    height: 100%;
+    background-color: black;
+}

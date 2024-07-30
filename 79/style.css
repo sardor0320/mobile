@@ -1,0 +1,51 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+    overflow-x: hidden;
+    padding: 0;
+
+}
+
+.fr{
+    display: inline-block;
+    position: relative;
+    font-weight: 600;
+    font-size: 20px;
+    left: 25px;
+}
+
+.img{
+    position: relative;
+    top: 5px;
+    left: 240px;
+}
+
+.box1{
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    border: 1px solid gray;
+}
+
+.bt2{
+    font-size: 20px;
+    top: -25px;
+    position: relative;
+    left: 25px;
+}
+
+
+.small2{
+    width: 85px;
+    height: 85px;
+    background-color: gray;
+    position: relative;
+    left: 300px;
+    top: -100px;
+}
+
+.p1{
+    position: relative;
+    top: -100px;
+    left: 25px;
+}

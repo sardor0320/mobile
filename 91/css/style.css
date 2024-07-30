@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    width: 78%;
+    height: 250px;
+    background: #262626;
+    font-family: sans-serif;
+    position: relative;
+    top: -450px;
+}
+
+.header__user {
+    width: 80px;
+    height: 80px;
+    background: #C4C4C4;
+    border-radius: 50%;
+    border: 1px solid #FFFF;
+    position: relative;
+    top: 40px;
+    left: 30px;
+}
+
+.header__user-name {
+    color: #FFFF;
+}
+
+.header__user-p {
+    color: #A8A8A8;
+}
+
+.header__user-text {
+    display: grid;
+    gap: 20px;
+    font-size: 12px;
+    position: relative;
+    top: 70px;
+    left: 25px;
+}
+
+
+.main__section {
+    width: 78%;
+    height: 500px;
+    color: #ffffffb4;
+    background: #525252;
+    position: relative;
+    top: -450px;
+}
+
+.main__section-ul {
+    font-family: sans-serif;
+    font-size: 20px;
+    display: grid;
+    gap: 30px;
+    position: relative;
+    left: 70px;
+    top: 20px;
+    list-style: none;
+}
+
+.main__section-image {
+    display: grid;
+    gap: 32px;
+    position: relative;
+    top: -210px;
+    left: 30px;
+}
+
+.main__section-line {
+    width: 100%;
+    position: relative;
+    top: -160px;
+}
+
+.main__section-about {
+    font-family: sans-serif;
+    font-size: 14px;
+    display: grid;
+    color: #ffffffcb;
+    position: relative;
+    top: -130px;
+    left: 30px;
+    display: grid;
+    gap: 30px;
+}
+
+.main__section-about-text {
+    display: grid;
+    gap: 5px;
+}
+
+.main__section-about-text-two {
+    display: grid;
+    gap: 5px;
+}
+
+.main__section-about-p {
+    color: #A8A8A8;
+}
+
+.back__section {
+    height: 100%;
+}
+
+
+.back__section-user {
+    position: relative;
+    top: 20px;
+    left: 40px;
+}
+
+.back__section-line {
+    width: 100%;
+    position: relative;
+    top: 30px;
+}
+
+.back__section-button {
+    position: relative;
+    left: 300px;
+    top: 150px;
+}
+.back__section-search{
+    /* width: 100%; */
+    position: relative;
+    top: 230px;
+    left: -20px;
+}
+.back__section-png{
+    position: relative;
+    top: 300px;
+    left: 30px;
+}

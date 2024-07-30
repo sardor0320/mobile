@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header img {
+    border-radius: 10px;
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+}
+.header .info {
+    flex-grow: 1;
+    margin-left: 10px;
+}
+.header .info h2 {
+    margin: 0;
+    font-size: 16px;
+}
+.header .info p {
+    margin: 0;
+    font-size: 12px;
+    color: gray;
+}
+.rating {
+    margin: 20px 0;
+}
+.rating label {
+    margin-right: 10px;
+}
+.rating input {
+    display: none;
+}
+.rating label:before {
+    content: '⬤';
+    font-size: 24px;
+    color: lightgray;
+}
+.rating input:checked ~ label:before {
+    color: purple;
+}
+.rating label:hover ~ label:before,
+.rating input:checked + label ~ label:before {
+    color: lightgray;
+}
+.rating input:checked + label:before,
+.rating label:hover:before,
+.rating label:hover ~ label:before {
+    color: purple;
+}
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 20px 0;
+}
+.buttons .btn {
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 1px solid lightgray;
+    background: white;
+    cursor: pointer;
+}
+.buttons .btn.selected {
+    border-color: purple;
+    color: purple;
+}
+.dropdown {
+    margin: 20px 0;
+}
+.dropdown select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+.footer .progress {
+    width: 80%;
+    height: 5px;
+    background-color: lightgray;
+    border-radius: 5px;
+    position: relative;
+}
+.footer .progress div {
+    width: 50%;
+    height: 100%;
+    background-color: purple;
+    border-radius: 5px;
+}
+.footer .next-button {
+    padding: 10px 20px;
+    background-color: purple;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}

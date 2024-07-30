@@ -1,0 +1,34 @@
+.headr_div{
+    display: flex;
+    justify-content:space-between;
+    img{
+        width: 40px;
+        height: 40px;
+        margin-top: 18px;
+
+    }
+}
+.section__div--left{
+    text-align: center;
+    width: 357px;
+    height: 200px;
+    border: 1px solid;
+    margin: 0px;
+}
+button{
+    width: 147px;
+    height: 40px;
+    background-color: #262626 ;
+    color: #FFFF;
+    border-radius: 64px;
+}
+.section_divv-ten{
+    display: flex;
+    gap: 20px;
+
+    img{
+       width: 50px;
+       height:50px;
+       margin-top: 20px;
+    }
+}

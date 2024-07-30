@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+
+    height: 100vh;
+}
+
+.container {
+    background-color: #fff;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+.section h2, .section h3 {
+    margin: 0;
+    font-size: 20px;
+}
+
+.section p {
+    color: #666;
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+.section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.add-btn {
+    background-color: #ddd;
+    border: none;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.family-members {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.member {
+    width: 50px;
+    height: 50px;
+    background-color: #ccc;
+    border-radius: 50%;
+}
+
+.member.more {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #999;
+}
+
+.devices {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.device {
+    background-color: #fff;
+    width: calc(34% - 10px);
+    height: 110px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.device-icon {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.device p {
+    margin: 0;
+    font-size: 14px;
+    color: #333;
+}
+
+.status {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.status.on {
+    background-color: #0f0;
+}
+
+.status.off {
+    background-color: #f00;
+}

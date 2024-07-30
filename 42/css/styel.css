@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    margin: 0px 0px 0 25px;
+}
+
+section p{
+    font-size: 10px;
+    font-weight: bold;
+    font-weight: 600;
+    margin: 20px 0 20px 0;
+}
+section .menu-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: auto;
+    width: 100%;
+    overflow: scroll;
+    gap: 15px;
+    margin: 20px 0;
+}
+section .menu-1 div{
+    text-align: center;
+}
+section .menu-1 p{
+    font-size: 10px;
+    margin: 10px 0 20px 0;
+}
+
+section .menu-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: auto;
+    width: 100%;
+    overflow: scroll;
+    gap: 15px;
+    margin: 20px 0;
+}
+section .menu-2 div div{
+    display: flex;
+    justify-content: space-between;
+    
+}
+section .menu-2 div p{
+    margin: 5px 0 0 0;
+}
+section .menu-2 div div p{
+    font-size: 18px;
+    margin: 0;
+    font-weight: 300;
+}
+section .item-menu{
+    background-color: rgba(38, 38, 38, 1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+}
+section .item-menu div{
+    color: rgb(255, 255, 255);
+    position: relative;
+    display: grid;
+    left: -20px;
+    bottom: 2px;
+    align-items: self-end;
+}
+section .item-menu div p{
+    margin: 10px 0 32px 0;
+    position: relative;
+    color: rgb(214, 216, 217);
+}
+section .item-menu div h2{
+    font-weight: 200;
+    font-size: 23px;
+    color: rgb(197, 199, 200);
+}

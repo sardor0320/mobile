@@ -1,0 +1,35 @@
+.header__img{
+    display: flex;
+    justify-content: space-between;
+}
+.header__top{
+    font-size: 40px;
+    margin-top: -50px;
+    margin-left: 17px;
+}
+.header__img--two{
+    display: flex;
+    justify-content: center;
+}
+.main__button button{
+    width: 300px;
+    height: 50px;
+    background-color: black;
+    color: aliceblue;
+    border-radius: 15px;
+    margin-left: 35px;
+}
+.main__left{
+    font-size: 19px;
+}
+.main__right{
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+.main__img--three{
+    display: flex;
+    justify-content: center;
+    transform: translatey(37px);
+    margin-left: 9px;
+}

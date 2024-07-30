@@ -1,0 +1,52 @@
+body {
+    padding: 0;
+    margin:0 ;
+    font-family: "Proxima Nova Cn Lt";
+}
+header {
+    display: flex;
+    margin: 10px 20px;
+    align-items: center;
+    gap: 40px;
+    font-size: 22px;
+    font-weight: 550;
+    justify-content: space-between;
+}
+.navbar-line-section {
+    width: 100%;
+    height: 1px;
+    background-color: #D0D0D0;
+    margin-top: 20px;
+}
+.box-btn___conteiner {
+    margin: 10px 20px;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    button {
+        border-radius: 50px;
+        font-size: 20px;
+        border: 1px solid #A8A8A8;
+        background-color: transparent;
+        height: 40px;
+        padding: 0 20px;
+    }
+    .space-btn {
+        background: #000000;
+        color: #ffffff;
+    }
+}
+.about-navbar {
+    margin: 20px 20px;
+    b {
+        font-size: 30px;
+    }
+    p {
+        font-size: 22px;
+    }
+}
+.photo-center-navbar {
+    margin: 10px 20px;
+    display: flex;
+    gap: 10px;
+}

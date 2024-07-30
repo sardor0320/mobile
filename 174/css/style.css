@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+header {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.filters {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.filters button {
+    margin: 0 5px;
+    padding: 10px 15px;
+    background-color: #efefef;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+header p {
+    margin-top: 10px;
+    color: gray;
+}
+
+header span {
+    font-weight: bold;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.hotel-card {
+    background-color: white;
+    width: 80%;
+    max-width: 500px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.hotel-card img {
+    width: 100%;
+    height: auto;
+}
+
+.hotel-info {
+    padding: 20px;
+    text-align: left;
+}
+
+.hotel-info h2 {
+    margin: 0 0 10px 0;
+}
+
+.rating {
+    display: flex;
+    align-items: center;
+}
+
+.rating span {
+    margin-right: 5px;
+}
+
+.hotel-info p {
+    font-size: 1.2em;
+    color: green;
+}
+
+.hotel-info a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+nav {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 0 -1px 10px rgba(0, 0, 0, 0.1);
+}
+
+nav button {
+    padding: 10px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 1em;
+}
+

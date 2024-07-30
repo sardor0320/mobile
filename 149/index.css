@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    font-family: sans-serif;
+}
+body{
+    background-color: black;
+    color: aliceblue;
+    header{
+        color: aliceblue;
+        display: flex;
+        align-items: center;
+        margin-top: 15px;
+        gap: 5px;
+    }
+    main{
+        .ul-one{
+            list-style: none;
+            margin-left: -40px;
+            margin-top: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        p{
+            margin-top: 30px;
+        }
+        .mai-div-one{
+            display: flex;
+            justify-content: space-between;
+            margin-top: 10px;
+        }
+        span{
+            display: block;
+            margin-top: 50px;
+        }
+        .ul-two{
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            margin-left: -40px;
+            margin-top: 20px;
+            a{
+                color: aliceblue;
+            }
+        }
+        b{
+            display: inline-block;
+            margin-top: 20px;
+            font-size: small;
+        }
+        select{
+            width: 170px;
+            border: none;
+            color: #3A595D;
+            background-color: black;
+        }
+        .paragraph-class{
+            height: 100px;
+            padding-top: 110px;
+            background-image: url("./images/Rectangle\ 306\ \(1\).png");
+        }
+    }
+}

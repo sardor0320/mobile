@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+.hero{
+    width: 300px;
+    height: 350px;
+    background-color: grey;
+    border-radius: 15px;
+    margin-left: 40px;
+    margin-top: 60px;
+}
+.footer_divs{
+    width: 65px;
+    height: 65px;
+    background-color: grey;
+    border-radius: 15px;
+}
+.footer_divs img{
+    margin-top: 20px;
+    margin-left: 20px;
+}

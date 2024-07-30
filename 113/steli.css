@@ -1,0 +1,78 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.div {
+    display: flex;
+}
+.div1 {
+    width: 30px;
+    height: 30px;
+    padding: 20px 35px;
+}
+.div2 {
+    width: 30px;
+    height: 30px;
+    padding: 20px 35px;
+    margin-left: 50%;
+}
+.div3 {
+    font-size: 30px;
+    padding-left: 4%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.div4 {
+    font-size: 15px;
+    padding-left: 1%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.div5 {
+    width: 171px;
+    height: 250px;
+    border-radius: 48px 0px 0px 0px;
+    background-color: blue;
+}
+.div6 {
+    width: 171px;
+    height: 250px;
+    border-radius: 0px 48px 0px 0px;
+    background: hsla(23, 82%, 58%, 1);
+
+}
+.div7 {
+    display: flex;
+    justify-content: center;
+}
+.div8 {
+    width: 171px;
+    height: 250px;
+    border-radius: 0px 0px 0px 48px;
+    background: hsla(0, 100%, 92%, 1);
+
+
+}
+.div9 {
+    width: 171px;
+    height: 250px;
+    border-radius: 0px 0px 48px 0px;
+    background: hsla(237, 51%, 65%, 1);
+
+
+}
+/* .div10 {
+
+} */
+ .div11 {
+    padding-left: 15%;
+    padding-top: 75%;
+    font-size: 35px;
+    font-weight: 200;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+ }
+ .div12 {
+    padding-left: 15%;
+    font-size: 20px;
+    color: aliceblue;
+ }

@@ -1,0 +1,10 @@
+.nav{
+    display: flex;
+    gap: 28px;
+}
+.ota{
+    padding: 10px;
+}
+.r{
+    padding-top: 40px;
+}

@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #111111;
+    padding: 15px;
+}
+
+.info {
+    margin-top: 30px;
+    width: 100%;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: white;
+
+    h4 {
+        font-weight: 100;
+    }
+
+    h1 {
+        font-weight: 400;
+    }
+
+    button {
+        width: 100%;
+        height: 45px;
+        border: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        font-size: 16px;
+    }
+}
+
+.info__second {
+    width: 100%;
+    height: max-content;
+    padding: 15px 0;
+    color: white;
+
+    h4 {
+        font-weight: 100;
+        margin-bottom: 5px;
+    }
+    
+    .img {
+        width: 100%;
+        height: 220px;
+        object-fit: cover;
+        background-image: url("https://s3-alpha-sig.figma.com/img/f07c/e6c4/66685829c9fbf96e235b504e382a59b4?Expires=1721606400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=q1EIsUQEE4CvXFaE9rUDorU1ATVC1hkfjsRY1Bdj-tIQaxoYVZhTjHIZF5GtMYT4cuBY~Pf4pnigsZdj~SUfZDL4BnfEIhv0OxpCaCfNJtqmwOGhYUebm-ez6Yur881V3J7HuV4XqREYEmiczkzD40y8GoXap1ud98FaJhjWmitW3ojXsWwDZGwYsQBywYWWYe3trYU9hxGo0svtIZ8Kgu~2nJMqz9tScN0jO9D8~DmbidEqs0ceDRpn~ToRg0DL5WSfxh7MtApSceWX7~s53DfpvyiDbVhw9KYfO9JmYuCrI0vJiksCgDDm6IVcAkMJf8DuxJT0njRtki4djOERCg__");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        display: flex;
+        align-items: flex-end;
+        margin-top: 10px;
+        
+        div {
+            width: 100%;
+            padding: 15px 0;
+            margin-left: 15px;
+
+            h1 {
+                font-weight: 400;
+            }
+    
+            h3 {
+                color: #A8A8A8;
+                font-weight: 400;
+            }
+        }
+    }
+
+    .letter {
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        button {
+            width: 100%;
+            height: 45px;
+            border: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            font-size: 16px;
+            border: none;
+            background-color: #004D7A;
+            color: white ;
+        }
+    }
+}

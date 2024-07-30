@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+}
+
+main {
+  height: 100%;
+  width: 100%;
+  background-color: #f4f4f4;
+  border-radius: 50px;
+  box-shadow: 0px 8px 32px 0px #00000040;
+}
+
+header {
+  margin-top: 43px;
+  padding: 0px 24px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 45px;
+  h4 {
+    font-size: 28px;
+    font-weight: 300;
+  }
+  h3 {
+    font-size: 28px;
+    font-weight: 600;
+  }
+}
+
+.song {
+  padding-top: 46px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+  margin-bottom: 21px;
+}
+

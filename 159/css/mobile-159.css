@@ -1,0 +1,11 @@
+.mobile-159-box1{
+    width: 90vw;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #f4f4f4;
+    font-size: x-large;
+    margin-bottom: 4vh;
+    margin-left: 3vw;
+}

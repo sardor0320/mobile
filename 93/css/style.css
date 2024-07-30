@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.top__pages-page{
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+}
+.top__pages{
+    position: relative;
+    top: 30px;
+}
+.top__pages-img-two{
+    width: 100%;
+    position: relative;
+    top: -25px;
+}
+.top__pages-img{
+    position: relative;
+    top: -20px;
+    left: 20px;
+}
+.about{
+    position: relative;
+    top: 150px;
+    /* line-height: 0px; */
+}
+.about__p{
+    /* width: 200px; */
+    font-size: 30px;
+    font-weight: 700;
+    padding-left: 30px;
+}
+.about__p-two{
+    width: 420px;
+    font-size: 19px;
+    padding-left: 30px;
+    line-height: 30px;
+    padding-top: 15px;
+}
+.button{
+    position: relative;
+    top: 200px;
+    
+}
+.btn{
+    background: transparent;
+    border: none;
+    border-radius: 50px;
+    padding: 10px;
+    padding-left: 20px;
+}

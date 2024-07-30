@@ -1,0 +1,94 @@
+.hdr {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 3px solid rgb(230, 223, 223);
+}
+
+.hdr__input {
+    width: 400px;
+    height: 30px;
+    border-radius: 15px;
+    border: none;
+    background: #efecec;
+    font-size: 17px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.stn {
+    width: 100%;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.stn__box {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.stn__box--box {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.stn__box--box__h2 {
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.stn__box--box__href {
+    font-size: larger;
+    color: black;
+}
+
+.stn__box--box-second {
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+.stn__box--box-second__box {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.stn__box--box-second__box--img {
+    width: 90%;
+    height: 90%;
+    object-fit: contain;
+}
+
+.stn__box--box-second__box--pr {
+    font-size: 22px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.stn__box--box__box--img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}

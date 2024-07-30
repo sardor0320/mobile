@@ -1,0 +1,29 @@
+.mobile-160-box1{
+    font-size: x-large;
+    text-align: center;
+    color: #595959;
+    width: 70vw;
+    margin-top: 15vh;
+    margin-left: 13vw;
+}
+.mobile-160-box2{
+    width: 90vw;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: solid  #595959 1px;
+    font-size: x-large;
+    margin-top: 10vh;
+    margin-left: 3vw;
+}
+.mobile-160-box3{
+    color: #fff;
+    background-color: #aab6b3;
+    width: 90vw;
+    height: 15vh;
+    font-size: x-large;
+    border: none;
+    margin-top: 5vh;
+    margin-left: 3vw;
+}

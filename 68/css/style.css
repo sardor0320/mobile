@@ -1,0 +1,81 @@
+/* styles.css fayli */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.nav-item {
+    font-size: 18px;
+    color: #666;
+    padding: 10px;
+}
+
+.nav-item.active {
+    font-weight: bold;
+    color: #000;
+}
+
+.search-icon {
+    font-size: 20px;
+}
+
+.video-gallery {
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.video-item {
+    background-color: #fff;
+    width: calc(50% - 10px);
+    margin-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.thumbnail {
+    width: 100%;
+    padding-top: 56.25%;
+    background-color: #ccc;
+}
+
+.video-info {
+    padding: 10px;
+}
+
+.title {
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+.author-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    color: #666;
+}
+
+.author-name {
+    flex-grow: 1;
+}
+
+.likes {
+    color: #e74c3c;
+}

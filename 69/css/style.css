@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.container {
+    width: 100%;
+    max-width: 390px; /* iPhone 13 Pro max-width */
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+.search-bar input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+.categories {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.category {
+    flex: 1;
+    padding: 10px;
+    margin: 0 5px;
+    font-size: 14px;
+    background-color: #e0e0e0;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.grid-item {
+    background-color: #d0d0d0;
+    padding-top: 100%; /* Aspect ratio 1:1 */
+    position: relative;
+}
+
+.grid-item .content {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    color: white;
+    background-color: #800080;
+    border-radius: 50%;
+}

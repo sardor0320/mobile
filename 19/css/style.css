@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+}
+
+.header-top {
+  display: flex;
+  margin-left: 24px;
+  gap: 190px;
+  margin-bottom: 22px;
+  align-items: center;
+}
+
+.search {
+  padding: 0px 24px;
+  margin-bottom: 37px;
+  input {
+    width: 342px;
+    height: 50px;
+    background-color: #f4f4f4;
+    box-shadow: 0px 1px 4px 0px #00000040;
+    border: none;
+    border-radius: 25px;
+    font-size: 20px;
+    padding: 0px 30px;
+  }
+}
+
+.upcoming {
+  padding: 0px 24px;
+  display: flex;
+  color: black;
+  justify-content: space-between;
+  margin-bottom: 36px;
+}
+
+.hotel {
+  padding: 0px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer {
+    margin-top: 36px;
+  padding: 0px 24px;
+  display: flex;
+  justify-content: space-between;
+}
